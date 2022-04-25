@@ -1,0 +1,54 @@
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  position: relative;
+  background-image: url(./images/wallpaper.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+h1{
+  text-align: center;
+  margin-top: 3px;
+  color: rgb(237, 241, 15);
+}
+form{
+  position: fixed;
+  margin-top: 700px;
+  right: 30%;
+  left: 30%;
+  border-radius: 8px;
+  border: 2px solid rgb(21, 185, 70);
+  color:#000;
+  box-shadow: 0 2px 4px 4px rgba(0,0,0,0.5);
+
+}
+
+.items{
+  position: fixed;
+  top: 140px;
+  right: 30%;
+  left: 30%;
+  border-radius: 8px;
+}
+
+.form-group{
+  margin-bottom: 0;
+}
+
+.completedTodo{
+  background-color: darkgray;
+  text-decoration: line-through;
+}
+.size{
+  width: 80px;
+}
+
+div{
+  display: grid;
+  place-items: center;
+}
